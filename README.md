@@ -1,1 +1,55 @@
 # Ecommerce-Customer-Segmentation-Minor-Project
+## 📌 Project Overview
+This project implements **Unsupervised Machine Learning (K-Means Clustering)** to segment e-commerce customers based on their purchasing behavior. By analyzing **Recency, Frequency, and Monetary (RFM)** metrics, the model identifies distinct customer personas to help businesses transition from generic marketing to data-driven, targeted strategies.
+
+## 📊 Key Results
+The analysis successfully segmented customers into **3 distinct clusters** (validated via the Elbow Method):
+
+| Cluster | Persona Name | Avg Spend ($) | Avg Recency (Days) | Insight |
+| :--- | :--- | :--- | :--- | :--- |
+| **0** | **High-Value Sleepers** | $547 (Low) | 36.4 (Inactive) | Largest group (172 customers). At risk of churning. Needs "Win-Back" campaigns. |
+| **1** | **Promising Newcomers** | $985 (Med) | 19.9 (Active) | Engaged but lower spend. Needs Upsell/Cross-sell strategies. |
+| **2** | **Top-Tier Customers** | $1460 (High) | 11.2 (Very Active) | Revenue backbone. Needs Loyalty rewards and exclusivity. |
+
+## 🛠️ Tech Stack
+* **Language:** Python 3.x
+* **Libraries:** Pandas, Scikit-learn, Matplotlib, Seaborn
+* **Visualization:** Tableau Public (Dashboard)
+* **Concepts:** RFM Analysis, Feature Scaling (StandardScaler), Elbow Method, K-Means Clustering
+
+## 📂 Dataset
+The dataset used is the **E-commerce Customer Behavior Dataset** sourced from Kaggle.
+* **Input File:** `E-commerce Customer Behavior - Sheet1.csv`
+* **Key Features:** Customer ID, Total Spend, Items Purchased, Days Since Last Purchase, Age, Gender, Membership Type.
+
+## 🚀 How to Run the Project
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/PalakPriya0301/Ecommerce-Customer-Segmentation-Minor-Project.git](https://github.com/PalakPriya0301/Ecommerce-Customer-Segmentation-Minor-Project.git)
+    ```
+2.  **Install dependencies:**
+    ```bash
+    pip install pandas scikit-learn matplotlib seaborn
+    ```
+    *(Note: Ensure `numpy < 2.0` is installed for compatibility)*
+3.  **Run the Jupyter Notebook:**
+    Open `project.ipynb` and execute the cells sequentially.
+4.  **View Output:**
+    * The script generates an `E.csv` file (labelled data) for visualization.
+    * Elbow Method graph and Cluster Profiles are displayed inline.
+
+## 📈 Dashboard (Tableau)
+An interactive dashboard was created to visualize the personas.
+
+
+<img width="2367" height="1238" alt="image" src="https://github.com/user-attachments/assets/14a6c1d8-f32f-4ca9-97da-a4d6f73ea02f" />
+
+
+
+## 🔮 Future Scope
+* **Web Interface:** Build a Streamlit app for non-technical users to upload data.
+* **Predictive Analytics:** Implement supervised learning to predict future churn probability.
+* **Automation:** Connect to live SQL databases for real-time segmentation.
+
+## 📝 Author
+**Palak** BCA Student at Amrita Vishwa Vidyapeetham
