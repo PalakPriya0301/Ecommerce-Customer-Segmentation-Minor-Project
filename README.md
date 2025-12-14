@@ -1,6 +1,10 @@
 # Ecommerce-Customer-Segmentation-Minor-Project
 ## 📌 Project Overview
 This project implements **Unsupervised Machine Learning (K-Means Clustering)** to segment e-commerce customers based on their purchasing behavior. By analyzing **Recency, Frequency, and Monetary (RFM)** metrics, the model identifies distinct customer personas to help businesses transition from generic marketing to data-driven, targeted strategies.
+## 📂 File Information
+**Please note the specific filenames used in this repository:**
+* **`project.ipynb`**: This is the main Jupyter Notebook containing the Python code for data cleaning, K-Means clustering, and analysis.
+* **`E-commerce Customer Behavior - Sheet1.csv`**: This is the raw dataset file (sourced from Kaggle) required to run the notebook.
 
 ## 📊 Key Results
 The analysis successfully segmented customers into **3 distinct clusters** (validated via the Elbow Method):
@@ -52,4 +56,5 @@ An interactive dashboard was created to visualize the personas.
 * **Automation:** Connect to live SQL databases for real-time segmentation.
 
 ## 📝 Author
-**Palak** BCA Student at Amrita Vishwa Vidyapeetham
+**Palak** 
+BCA Student at Amrita Vishwa Vidyapeetham
