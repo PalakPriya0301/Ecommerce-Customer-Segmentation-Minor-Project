@@ -47,7 +47,8 @@ The dataset used is the **E-commerce Customer Behavior Dataset** sourced from Ka
 An interactive dashboard was created to visualize the personas.
 
 
-<img width="2367" height="1238" alt="image" src="https://github.com/user-attachments/assets/14a6c1d8-f32f-4ca9-97da-a4d6f73ea02f" />
+<img width="1744" height="798" alt="image" src="https://github.com/user-attachments/assets/09c87cc1-4e67-4845-95bb-f8c732da62ba" />
+
 
 
 
